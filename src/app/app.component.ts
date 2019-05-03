@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  src = 'assets/bacphan.mp4';
+  onDragEnded(event) {
+    console.log(event.source.dropped);
+  }
 }
